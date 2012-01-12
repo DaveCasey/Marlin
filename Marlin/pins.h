@@ -233,6 +233,7 @@
 // uncomment one of the following lines for RAMPS v1.3 or v1.0, comment both for v1.2 or 1.1
 // #define RAMPS_V_1_3
 // #define RAMPS_V_1_0
+// #define RAMPS_V_1_1
 
 #ifdef RAMPS_V_1_3
 
@@ -316,9 +317,13 @@
   #define HEATER_BED_PIN   -1    // RAMPS 1.0
   #define FAN_PIN          11    // RAMPS 1.0
 #else // RAMPS_V_1_1 or RAMPS_V_1_2
-  #define HEATER_0_PIN     10    // RAMPS 1.1
-  #define HEATER_BED_PIN    8    // RAMPS 1.1
-  #define FAN_PIN           9    // RAMPS 1.1
+//  #define HEATER_0_PIN     10    // RAMPS 1.1
+//  #define HEATER_BED_PIN    8    // RAMPS 1.1
+//  #define FAN_PIN           9    // RAMPS 1.1
+  
+  #define HEATER_0_PIN     9    // RAMPS 1.1
+  #define HEATER_BED_PIN   10    // RAMPS 1.1
+  #define FAN_PIN           8    // RAMPS 1.1
 #endif
 #define HEATER_1_PIN        -1
 #define HEATER_2_PIN        -1
